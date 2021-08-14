@@ -5,104 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
         <nav>
-          <a href=""><span>Web</span><span>Studio</span></a>      
-                 <ul>
+          <a class="link" href=""><span class="pre-logo">Web</span><span class="sub-logo">Studio</span></a>      
+                 <ul class="list">
                      <li>
-                         <a href="">Студия</a>
+                         <a class="header-link link" href="file:///E:/GitHub/goit-markup-hw-02/index.html   ">Студия</a>
                         </li>
                      <li>
-                         <a href="">Портфолио</a>
+                         <a class="header-link link" href="file:///E:/GitHub/goit-markup-hw-02/portfolio.html">Портфолио</a>
                         </li>
                      <li>
-                         <a href="">Контакты</a>
+                         <a class="header-link link" href="">Контакты</a>
                         </li>
                  </ul>
        </nav>
        <ul>
            <li>
-              <a href="mailto:info@devstudio.com">info@devstudio.com"</a>
+              <a class="info-link link" href="mailto:info@devstudio.com">info@devstudio.com"</a>
            </li>
            <li>
-              <a href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="info-link link" href="tel:+380961111111">+38 096 111 11 11</a>
            </li>
        </ul>
     </header>
     <main>
-        <section>
-            <button type="button">Все</button>
-            <button type="button">Веб-сайты</button>
-            <button type="button">Приложения</button>
-            <button type="button">Дизайн</button>
-            <button type="button">Маркетинг</button>
-        </section>
-        <section>
+        <section class="portfolio">
+            <ul class="list">
+                <li>
+                    <button class="btn" type="button"><span class="btn-text">Все</span></button>
+                </li>
+                <li>
+                    <button class="btn" type="button"><span class="btn-text">Веб-сайты</span></button>
+                </li>
+                <li>
+                    <button class="btn" type="button"><span class="btn-text">Приложения</span></button>
+                </li>
+                <li>
+                    <button class="btn"type="button"><span class="btn-text">Дизайн</span></button>
+                </li>
+                <li>
+                    <button class="btn" type="button"><span class="btn-text">Маркетинг</span></button>
+                </li>
+            </ul>
             <!-- our projects -->
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/texnofix.jpg" alt="Веб-сайт" width="370" height="295">
-                    <h3>Технокряк</h3>
-                    <p>Веб-сайт</p>
+                    <h3 class="project-title">Технокряк</h3>
+                    <p class="project-choice">Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/golden-star.jpg" alt="Дизайн" width="370" height="295">
-                    <h3>Постер<span lang="en">New Orlean vs Golden Star</span></h3>
-                    <p>Дизайн</p>
+                    <h3 class="project-title">Постер<span lang="en">New Orlean vs Golden Star</span></h3>
+                    <p class="project-choice">Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/seafood.jpg" alt="Приложение" width="370" height="295">
-                    <h3>Ресторан<span lang="en">Seafood</span></h3>
-                    <p>Приложение</p>
+                    <h3 class="project-title">Ресторан<span lang="en">Seafood</span></h3>
+                    <p class="project-choice">Приложение</p>
                 </li>
                 <li>
                     <img src="./images/prime.jpg" alt="Маркетинг" width="370" height="295">
-                    <h3>Проект<span lang="en">Prime</span></h3>
-                    <p>Маркетинг</p>
+                    <h3 class="project-title">Проект<span lang="en">Prime</span></h3>
+                    <p class="project-choice">Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/boxes.jpg" alt="Приложение" width="370" height="295">
-                    <h3>Проект<span lang="en">Boxes</span></h3>
-                    <p>Приложение</p>
+                    <h3 class="project-title">Проект<span lang="en">Boxes</span></h3>
+                    <p class="project-choice">Приложение</p>
                 </li>
                 <li>
                     <img src="./images/non-borders.jpg" alt="Веб-сайт" width="370" height="295">
-                    <h3 lang="en">Inspiration has no Borders</h3>
-                    <p>Веб-сайт</p>
+                    <h3 class="project-title" lang="en">Inspiration has no Borders</h3>
+                    <p class="project-choice">Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/limited-edition.jpg" alt="Дизайн" width="370" height="295">
-                    <h3>Издание<span>Limited Edition</span></h3>
-                    <p>Дизайн</p>
+                    <h3 class="project-title">Издание<span>Limited Edition</span></h3>
+                    <p class="project-choice">Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/project-lab.jpg" alt="Маркетинг" width="370" height="295">
-                    <h3>Проект<span>Lab</span></h3>
-                    <p>Маркетинг</p>
+                    <h3 class="project-title">Проект<span>Lab</span></h3>
+                    <p class="project-choice">Маркетинг</p>
                 </li>
                 <li>
-                    <img src="./images/busyness.jpg" alt="Маркетинг" width="370" height="295">
-                    <h3 lang="en">Growing Business</h3>
-                    <p>Маркетинг</p>
+                    <img src="./images/business.jpg" alt="Маркетинг" width="370" height="295">
+                    <h3 class="project-title" lang="en">Growing Business</h3>
+                    <p class="project-choice">Маркетинг</p>
                 </li>
             </ul>
         </section>
     </main>                                                     
-    <footer>
-        <a href=""><span>Web</span><span>Studio</span></a>
+    <footer class="footer">
+        <a class="link" href=""><span class="pre-logo">Web</span><span class="sub-logo">Studio</span></a>
         <address>
-            <ul>
+            <ul class="list">
                 <li>
-                    <a href="https://goo.gl/maps/BNxrX4DYjBoTdbWa7" target="_blank"  rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+                    <a class="adress link" href="https://goo.gl/maps/BNxrX4DYjBoTdbWa7" target="_blank"  rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
                 <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>    
+                    <a class="footer-info link" href="mailto:info@devstudio.com">info@devstudio.com</a>    
                 </li>
                 <li>
-                    <a href="tel:+380991111111">+38 099 111 11 11</a>   
+                    <a class="footer-info link" href="tel:+380991111111">+38 099 111 11 11</a>   
                 </li>
             </ul>
         </address>
